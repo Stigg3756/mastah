@@ -1,0 +1,64 @@
+.body {
+font-family: Helvetica;
+}
+
+.lewy {
+background-color: Navy;
+color: #fff;
+height: 700px;
+width: 25%;
+float: left;
+}
+
+.filmoteka {
+background-color: RoyalBlue;
+height: 100px;
+width: 75%;
+float: right;
+letter-spacing: 5px;
+text-align: center;
+}
+
+.formularz {
+background-color: SteelBlue;
+height: 300px;
+width: 75%;
+float: right;
+}
+
+.ramka:hover {
+background-color: DeepSkyBlue;
+margin-top: 30px;
+margin-left: 30px;
+margin-right: 30px;
+height: 225px;
+
+}
+
+.ramka {
+background-color: SteelBlue;
+margin-top: 30px;
+margin-left: 30px;
+margin-right: 30px;
+height: 225px;
+}
+
+.zdjecie {
+background-color: RoyalBlue;
+height: 300px;
+width: 75%;
+text-align: center;
+float: right;
+}
+
+img {
+	height: 285px;
+	float: center;
+	text-height: 3;
+}
+
+.stopka {
+background-color: SteelBlue;
+text-align: center;
+padding: 20px;
+}

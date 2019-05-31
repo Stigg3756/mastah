@@ -1,0 +1,43 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>Filmy</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="styl1.css">
+</head>
+<body>
+<!--Lewy div-->
+<div class="lewy"><h3>Dostępne gatunki filmu</h3>
+<ol>
+	<li>Sci-Fi</li>
+	<li>Animacja</li>
+	<li>Dramat</li>
+	<li>Horror</li>
+	<li>Komedia</li>
+</ol>
+<p><a href="kadr.jpg">Pobierz obraz</a></p>
+<p><a href="repertuar-kin.pl" target="_blank">Sprawdź repertuar kin</a></p>
+</div>
+<!--Filmoteka-->
+<div class="filmoteka"><h1>FILMOTEKA</h1></div>
+<!--Formularz-->
+<div class="formularz">
+<form action="dodaj.php" method="POST">
+<fieldset class="ramka" style="border: 0";>
+<label>Tytuł:<input type="text"></label><br><br>
+<label>Gatunek:<input type="number"></label><br><br>
+<label>Rok produkcji:<input type="number"></label><br><br>
+<label>Ocena:<input type="number"></label><br><br>
+<input type="reset" value="CZYŚĆ">
+<input type="submit" value="DODAJ">
+</fieldset>
+</form>
+</div>
+<!--Zdjęcie-->
+<div class="zdjecie">
+<img src="kadr.jpg" alt="zdjęcia filmowe">
+</div>
+<!--Stopka-->
+<div class="stopka"> Autor strony: 00230202876</div>
+</body>
+</html>
